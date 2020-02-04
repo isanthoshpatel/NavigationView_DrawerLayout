@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/ic_ondemand_video_black_24dp"
+            android:title="Videos" />
+        <item
+            android:id="@+id/ask"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Ask" />
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/mail"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Email Us" />
+        </menu>
+    </item>
+</menu>
